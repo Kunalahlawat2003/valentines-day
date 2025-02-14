@@ -25,7 +25,7 @@ function App() {
 
   return <div className='bg-red-300 h-screen w-full'>
     <audio ref={audioRef} loop>
-      <source src="./audio.mp3" type='audio/mp3'/>
+      <source src="/audio.mp3" type='audio/mp3'/>
     </audio>
     <div className='relative w-full h-[10%] bg-white text-black text-5xl font-md font-stretch-extra-expanded items-center flex justify-center text-red-500 shadow-lg'>
       Valentine's Day
@@ -56,7 +56,7 @@ function App() {
         <div className='font-sans text-white'>Note: {text1 && "Please dont say no 😭"} {text2 && "think again carefully"} {text3 && "Really ?? Please 🥺"} {text4 && "Fine go ahead 😔"} </div>
       </div>
       {yesButton && <div className='flex flex-col justify-center items-center h-1/2'>
-        <img src='./gianbortion-cat.gif' className='h-full '/>
+        <img src='/gianbortion-cat.gif' className='h-full '/>
         <div className='font-sans text-white text-xl'>Mere Balkan ki maa tane i love you 😘</div>
         </div>}
     </div>
